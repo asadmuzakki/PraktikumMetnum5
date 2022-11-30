@@ -17,6 +17,6 @@ public class RkMethod {
 		double k3 = h * (fx(a0 + h, b0 - k1 + (2.0 * k2), b1 - k1 + (2.0 * k2)));
 		System.out.println("\nHasil k1 = " + k1 + "\nHasil k2 = " + k2 + "\nHasil k3 = " + k3);
 		double hasil = b0 + ((1.0 / 6) * (k1 + (4 * k2) + k3));
-		System.out.println("Hasil PD tersebut dengan RK 3 adalah : " + hasil);
+		System.out.println("Hasil PD tersebut dengan RK orde 3 adalah : " + hasil);
 	}
 }
